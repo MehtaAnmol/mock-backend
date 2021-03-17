@@ -1,0 +1,15 @@
+{
+  "name": "fakebackend",
+  "version": "1.0.0",
+  "description": "This is a fake backend providing demo data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "json-server -p 3007 -w db.json"
+  },
+  "author": "Anmol Mehta",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
